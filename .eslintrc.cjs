@@ -3,6 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
     node: true,
+    jest: true,
   },
   extends: ["xo", "prettier"],
   overrides: [
@@ -14,6 +15,7 @@ module.exports = {
           "error",
           "interface",
         ],
+        "@typescript-eslint/consistent-type-assertions": ["off"],
       },
     },
     {
