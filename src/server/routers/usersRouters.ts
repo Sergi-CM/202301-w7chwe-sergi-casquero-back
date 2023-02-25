@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getUsers } from "../userControllers.js";
+import { getUsers } from "../controllers/userControllers.js";
 
 // eslint-disable-next-line new-cap
 const usersRouter = Router();
