@@ -4,8 +4,9 @@ export interface UserCredentials {
 }
 
 export interface UserRegister extends UserCredentials {
+  name: string;
   email: string;
-  avatar: string;
+  avatar?: string;
 }
 
 export interface UserProfile extends UserRegister {
